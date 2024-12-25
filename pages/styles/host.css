@@ -1,0 +1,110 @@
+
+
+.host{
+    margin: auto;
+    max-width: 95%;
+}
+
+.host-navbar{
+    list-style: none;
+    margin: 5rem auto 1rem;
+}
+
+.host-navbar ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.host-navbar li{
+    display: inline-flex;
+    margin-right: 3rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.host-navbar ul li a{
+    display: flex;
+    align-items: center;
+}
+.host-navbar ul li a svg{
+    margin-right: 0.35rem;
+}
+
+.host-navbar a:hover, .host-navbar a:active{
+    color: #da5700;
+    text-decoration: underline;
+}
+
+.income-navbar a:hover, .income-navbar a:active{
+    color: green;
+}
+
+.reviews-navbar a:hover, .reviews-navbar a:active{
+    color: #8a04ff
+}
+
+.car-navbar a:hover, .car-navbar a:active{
+    color: #049fff;
+}
+
+@media (max-width: 450px){
+    .host-navbar{
+        list-style: none;
+        margin: 1rem auto;
+    }
+
+    .host-navbar li{
+        margin: 2rem auto 1rem;
+        margin-right: 1rem;
+    }
+}
+
+
+
+/* Host Cars Layout */
+
+
+
+.hostcar-navbar{
+    list-style: none;
+    margin: 1rem auto ;
+}
+
+.hostcar-navbar ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.hostcar-navbar li{
+    display: inline-flex;
+    margin-right: 3rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.hostcar-navbar a:hover, .hostcar-navbar a:active{
+    color: #049fff;
+    text-decoration: underline;
+}
+
+.hostcars-container {
+    margin:2rem auto;
+}
+
+
+
+
+@media (max-width:750px){
+    .host-navbar{
+        text-align: center;
+    }
+
+    .hostcars-container {
+        margin:1rem auto;
+    }
+}
+
+/* Host Cars Layout Ends */
